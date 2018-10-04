@@ -1,1 +1,1 @@
-owm-api-current
+#OpenWeatherMap Current Weather Tool
