@@ -11,6 +11,8 @@
 
     <modules>
         <module>cities-list</module>
+        <module>retriever</module>
+        <module>model</module>
     </modules>
 
     <properties>
@@ -33,18 +35,19 @@
                 <artifactId>logback-classic</artifactId>
                 <version>${logback.version}</version>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+            <!--Spring-->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
                 <version>${spring.version}</version>
             </dependency>
-
+            <!--Lombok-->
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
             </dependency>
+            <!--JSON library-->
             <dependency>
                 <groupId>com.google.code.gson</groupId>
                 <artifactId>gson</artifactId>

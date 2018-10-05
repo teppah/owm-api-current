@@ -2,7 +2,7 @@ package com.yfy.cityutil;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.yfy.data.City;
+import com.yfy.location.City;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.ResourceUtils;
 
@@ -63,7 +63,7 @@ public final class CityUtils {
     /**
      * Returns an immutable list of {@link City} that are supported in the OpenWeatherMap current weather API.
      *
-     * @see com.yfy.data.City
+     * @see com.yfy.location.City
      * */
     public static List<City> getCitiesList() {
         if (cities == null) {
