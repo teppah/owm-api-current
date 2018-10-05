@@ -3,9 +3,11 @@ package com.yfy.weather;
 import com.yfy.location.Coord;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.ToString;
 
 @AllArgsConstructor
 @Data
+@ToString
 public class CurrentConditions {
     private Coord coord;
     private Weather weather;
